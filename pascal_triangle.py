@@ -8,7 +8,9 @@ def generate_pascals_triangle(numRows):
     
     return result 
 
-triangle = int(input())
+n = int(input())
+
+triangle = generate_pascals_triangle(n)
 
 for row in triangle:
     print(row)
